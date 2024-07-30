@@ -18,3 +18,6 @@ color_palette_cluster = [color1, color3, color5, color2, color4]
 
 # Set global parameters for all bar charts
 plt.rcParams['patch.edgecolor'] = 'none'  # Removes edges from all patches (including bars)
+
+# Remove Grids
+plt.rcParams['axes.grid'] = False

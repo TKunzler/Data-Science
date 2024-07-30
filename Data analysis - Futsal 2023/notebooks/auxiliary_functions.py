@@ -446,7 +446,7 @@ def plot_games_goals_month(months_pt,goals_per_month, games_per_month):
 
 def plot_average_goals_month(months_pt, average_goals_per_game):
     # Adjust the figure size
-    plt.figure(figsize=(15, 8))
+    plt.figure(figsize=(12, 6))
 
     # Create the line plot
     plt.plot(months_pt, average_goals_per_game, marker='o', color='#41210A', linewidth=2.5)  # Adjust linewidth as needed
@@ -516,7 +516,7 @@ def plot_goal_type(goal_type_counts):
 
 def plot_goal_time(segment_counts):
     # Adjust the figure size
-    plt.figure(figsize=(15, 6))
+    plt.figure(figsize=(12, 6))
 
     # Plot the bar chart
     bars = plt.bar(segment_counts.index, segment_counts.values, color=['#FBB03B', '#BD812B', '#80511B'], width=0.5)
@@ -889,7 +889,7 @@ def plot_player_best_performance(top_5_scorer_games, top_5_assist_games, chosen_
 
 def plot_frequent_teamates(players_count, chosen_player, max_value):
     # Adjust the figure size
-    plt.figure(figsize=(15, 7))
+    plt.figure(figsize=(12, 6))
 
     # Create the bar chart
     bars = players_count.plot(kind='bar', color=color_points_bg )
@@ -1007,7 +1007,7 @@ def plot_player_involvement(df_scorer_counts, df_assistant_counts, total_counts,
 
 def plot_player_involvement_period(part_counts, part_counts_goals, part_counts_assists, chosen_player, points_mapping):
     # Adjust the figure size
-    plt.figure(figsize=(15, 8))
+    plt.figure(figsize=(12, 6))
 
     wid = 0.2
 
@@ -1063,7 +1063,7 @@ def plot_player_involvement_period(part_counts, part_counts_goals, part_counts_a
 
 def plot_player_involviment_type(part_counts, part_counts_goals, part_counts_assists, chosen_player, points_mapping):
     # Adjust the figure size
-    plt.figure(figsize=(15, 8))
+    plt.figure(figsize=(12, 6))
 
     wid = 0.2
 
