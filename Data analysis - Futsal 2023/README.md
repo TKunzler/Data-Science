@@ -8,7 +8,7 @@ This personal project involves analyzing data collected throughout 2023 from fut
 The idea came from a habit of my friend Gabriel, who always recorded his individual statistics from the matches, noting only the number of goals he scored and the final result (win, draw, or loss). During our conversations, we realized it would be interesting to record more data from our matches. However, we faced the challenge of not having an efficient mechanism to quickly collect and store this data during the games, in a way that all our friends would adopt this practice. With this problem in mind, I used my programming skills to find a solution.
 
 ### Data Collection
-Collecting data during a futsal match without a dedicated person is a challenging task. No one wants to interrupt the game to note the score, time, goal scorers, and assist providers. It needs to be done quickly and with few clicks. My solution was to create the website www.ormarcador.com, optimized for mobile devices, allowing us to store match data quickly and efficiently. Throughout 2023, we used O Marcador to collect data from all the matches we played.
+Collecting data during a futsal match without a dedicated person is a challenging task. No one wants to interrupt the game to note the score, time, goal scorers, and assist providers. It needs to be done quickly and with few clicks. My solution was to create the website www.omarcador.com, optimized for mobile devices, allowing us to store match data quickly and efficiently. Throughout 2023, we used O Marcador to collect data from all the matches we played.
 
 In the image below, you can see a real example of a match played on June 20, 2023, where we used the website "omarcador.com" to record the match statistics.
 ![Phone](images/omarcador.jpg)
