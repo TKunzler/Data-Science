@@ -253,6 +253,39 @@ def plot_assistants_scorers_tables(df_assistants, df_scorer):
 
 
 
+def plot_goals_assists(df_scorer, df_assistants):
+    
+# Create a figure with two subplots
+    fig, axs = plt.subplots(1, 2, figsize=(12, 5))
+
+    # First plot: Scatter plot for number of goals vs number of matches
+    axs[0].scatter(df_scorer['Matches'], df_scorer['Goals'], color=color_gols_bg, alpha=0.7)
+    axs[0].set_title('Goals vs Matches', fontsize=15, weight='bold')
+    axs[0].set_xlabel('Matches')
+    axs[0].set_ylabel('Goals')
+    axs[0].grid(False)
+
+    # Keep only the left and bottom borders of the first plot
+    axs[0].spines['top'].set_visible(False)
+    axs[0].spines['right'].set_visible(False)
+
+    # Second plot: Scatter plot for number of assists vs number of matches
+    axs[1].scatter(df_assistants['Matches'], df_assistants['Assists'], color=color_assits_bg, alpha=0.7)
+    axs[1].set_title('Assists vs Matches', fontsize=15, weight='bold')
+    axs[1].set_xlabel('Matches')
+    axs[1].set_ylabel('Assists')
+    axs[1].grid(False)
+
+    # Keep only the left and bottom borders of the second plot
+    axs[1].spines['top'].set_visible(False)
+    axs[1].spines['right'].set_visible(False)
+
+    # Adjust layout and display the plots
+    plt.tight_layout()
+    plt.show()
+
+
+
 def plot_goals_per_location(df_sum_goals_venues):
     wid = 0.5
 

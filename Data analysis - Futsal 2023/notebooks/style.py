@@ -21,3 +21,6 @@ plt.rcParams['patch.edgecolor'] = 'none'  # Removes edges from all patches (incl
 
 # Remove Grids
 plt.rcParams['axes.grid'] = False
+
+# Definir a cor das bordas globalmente
+plt.rcParams['axes.edgecolor'] = color2   
